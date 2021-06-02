@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.4s;
+}
+.container {
+  text-align: center;
+  margin: 50px auto 50px auto;
+  width: 40%;
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  border-radius: 20px;
+}
+.buttons {
+  width: 90%;
+  margin: 10px auto 10px auto;
+}
+.btn {
+  background-color: rgb(209, 209, 209);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+}
+.input {
+  border-radius: 12px;
+  background-color: rgb(209, 209, 209);
+  padding: 5px;
+  margin: 10px;
+  width: 300px;
+  height: 60px;
+  font-size: 2rem;
+}
+.specials {
+  width: 27%;
+}
+.btn:hover {
+  background-color: rgb(155, 150, 150);
+}
+.division {
+  width: 28px;
+  margin-top: 2px;
+}
+.multi {
+  width: 20px;
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    text-align: center;
+    margin: 20px auto 20px auto;
+    width: 90%;
+    background-color: rgb(32, 31, 31);
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .buttons {
+    width: 95%;
+    margin: 10px auto 10px auto;
+  }
+  .btn {
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+    margin: 8px;
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    font-size: 1.5rem;
+  }
+  .input {
+    border-radius: 12px;
+    background-color: rgb(209, 209, 209);
+    padding: 5px;
+    margin: 8px;
+    width: 85%;
+    height: 45px;
+    font-size: 1.5rem;
+  }
+  .specials {
+    width: 30%;
+  }
+  .btn:hover {
+    background-color: rgb(155, 150, 150);
+  }
+  .division {
+    width: 20px;
+    margin-top: 2px;
+  }
+  .multi {
+    width: 15px;
+    margin-bottom: 2px;
+  }
+}
